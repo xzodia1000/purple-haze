@@ -4,25 +4,28 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/style/base/ui-va
 */
 @import "base/ui-variables";
 
+@purple: #B026FF;
+@black: lighten(#06030a, 2.3%);
+
 @gray-base: #ffffff;
-@gray-darker: darken(@gray-base, 13.5%);
+@gray-darker: darken(@gray-base, 13.5);
 @gray-dark: darken(@gray-base, 20%);
 @gray: darken(@gray-base, 33.5%);
 @gray-light: darken(@gray-base, 46.7%);
 @gray-lighter: darken(@gray-base, 92.5%);
-@white: #0a0a0a;
+@white: #fff;
 
-@accent-primary: #58b660;
+@accent-primary: @purple;
 @accent-primary-dark: darken(@accent-primary, 10%);
 
-@background-primary: #212121;
-@background-off-primary: #212121;
-@background-secondary: #121212;
-@background-tertiary: #6d7987;
+@background-primary: @black;
+@background-off-primary: @black;
+@background-secondary: #010101; 
+@background-tertiary: #1f1f1f;
 
-@border-color-primary: lighten(@background-primary, 10%);
-@border-color-secondary: lighten(@background-secondary, 10%);
-@border-color-tertiary: lighten(@background-tertiary, 10%);
+@border-color-primary: @background-primary;
+@border-color-secondary: @background-secondary;
+@border-color-tertiary: @background-tertiary;
 @border-color-divider: @border-color-secondary;
 
 @text-color: #eee;
@@ -48,5 +51,5 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/style/base/ui-va
 @list-selected-color: @text-color-inverse;
 @list-focused-color: @text-color;
 
-@toolbar-background-color: #121212;
-@panel-background-color: #121212;
+@toolbar-background-color: @black;
+@panel-background-color: #010101;
