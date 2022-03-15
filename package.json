@@ -1,0 +1,13 @@
+{
+  "name": "purple-haze",
+  "title": "Purple Haze",
+  "displayName": "Purple Haze",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Dark theme with purple accents.",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  }
+}
+
