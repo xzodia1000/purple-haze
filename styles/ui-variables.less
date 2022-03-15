@@ -4,28 +4,29 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/style/base/ui-va
 */
 @import "base/ui-variables";
 
-@gray-base: blue;
+@gray-base: #ffffff;
 @gray-darker: darken(@gray-base, 13.5%);
 @gray-dark: darken(@gray-base, 20%);
 @gray: darken(@gray-base, 33.5%);
 @gray-light: darken(@gray-base, 46.7%);
 @gray-lighter: darken(@gray-base, 92.5%);
 @white: #0a0a0a;
-
-@accent-primary: #58b660;
+@purple: #B026FF;
+@black: #1B1212;
+@accent-primary: @purple;
 @accent-primary-dark: darken(@accent-primary, 10%);
 
-@background-primary: #212121;
-@background-off-primary: #212121;
-@background-secondary: #121212;
-@background-tertiary: #6d7987;
+@background-primary: @black;
+@background-off-primary: @black;
+@background-secondary: @gray-base;
+@background-tertiary: @gray-darker;
 
-@border-color-primary: lighten(@background-primary, 10%);
-@border-color-secondary: lighten(@background-secondary, 10%);
+@border-color-primary: lighten(@purple, 10%);
+@border-color-secondary: lighten(@purple, 10%);
 @border-color-tertiary: lighten(@background-tertiary, 10%);
 @border-color-divider: @border-color-secondary;
 
-@text-color: #eee;
+@text-color: #c9a6ed;
 @text-color-subtle: fadeout(@text-color, 20%);
 @text-color-very-subtle: fadeout(@text-color, 40%);
 @text-color-inverse: white;
