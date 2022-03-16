@@ -4,37 +4,39 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/style/base/ui-va
 */
 @import "base/ui-variables";
 
-@purple: #B026FF;
-@black: lighten(#06030a, 2.3%);
 
-@gray-base: #ffffff;
-@gray-darker: darken(@gray-base, 13.5);
+@neon-purple: #040725;
+@black: #10003b;
+@border: #050214;
+
+@gray-base: #050214;
+@gray-darker: darken(@gray-base, 13.5%);
 @gray-dark: darken(@gray-base, 20%);
 @gray: darken(@gray-base, 33.5%);
 @gray-light: darken(@gray-base, 46.7%);
 @gray-lighter: darken(@gray-base, 92.5%);
 @white: #fff;
 
-@accent-primary: @purple;
+@accent-primary: #C060A1;
 @accent-primary-dark: darken(@accent-primary, 10%);
 
 @background-primary: @black;
 @background-off-primary: @black;
-@background-secondary: #010101; 
-@background-tertiary: #1f1f1f;
+@background-secondary: @gray-base;
+@background-tertiary: @gray-darker;
 
-@border-color-primary: @background-primary;
-@border-color-secondary: @background-secondary;
-@border-color-tertiary: @background-tertiary;
+@border-color-primary: lighten(@border, 10%);
+@border-color-secondary: lighten(@border, 10%);
+@border-color-tertiary: lighten(@background-tertiary, 10%);
 @border-color-divider: @border-color-secondary;
 
-@text-color: #eee;
+@text-color:#d7d8d9;
 @text-color-subtle: fadeout(@text-color, 20%);
 @text-color-very-subtle: fadeout(@text-color, 40%);
-@text-color-inverse: white;
+@text-color-inverse: #d7d8d9;
 @text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
 @text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
-@text-color-heading: #fff;
+@text-color-heading: #C060A1;
 
 @text-color-link: @accent-primary;
 @text-color-link-hover: @accent-primary-dark;
@@ -43,13 +45,13 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/style/base/ui-va
 @btn-default-bg-color: lighten(@background-primary, 5%);
 @dropdown-default-bg-color: #404040;
 
-@input-bg: #2e2e2e;
+@input-bg: #020319;
 @input-border: @border-color-divider;
 
-@list-bg: #333;
-@list-border: #383838;
+@list-bg: #0b102e;
+@list-border: lighten(@list-bg, 10%);
 @list-selected-color: @text-color-inverse;
 @list-focused-color: @text-color;
 
-@toolbar-background-color: @black;
-@panel-background-color: #010101;
+@toolbar-background-color: #040725;
+@panel-background-color: #020319;
