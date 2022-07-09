@@ -21,7 +21,7 @@ Clone this repo laocally:
 
 #### Manually
 
-Download and unzip the source code from the release page here.
+Download and unzip the source code from the release page [here](https://github.com/xzodia1000/purple-haze/releases).
 
 ### Using the theme
 
