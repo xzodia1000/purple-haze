@@ -1,6 +1,6 @@
 # purple-haze
 
-Purple Haze is a theme for the [Mailspring](https://getmailspring.com/) email client. You can find the install instuctions and previews down below.
+Purple Haze is a theme for the [Mailspring](https://getmailspring.com/) email client.
 
 ## Preview
 
